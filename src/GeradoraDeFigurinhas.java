@@ -40,7 +40,7 @@ public class GeradoraDeFigurinhas {
     //escrever uma frase na nova imagem
     graphics.drawString("TOPZERA", 0, novaAltura - 100);
 
-    //escrever a nova imagem em um arquivossss
+    //escrever a nova imagem em um arquivos
     ImageIO.write(novaImagem, "png", new File(nomeArquivo));
 
     }
