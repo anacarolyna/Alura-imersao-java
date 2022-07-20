@@ -1,13 +1,9 @@
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.io.InputStream;
-import java.net.URL;
 import java.awt.Font;
 import java.awt.Color;
-
 import javax.imageio.ImageIO;
 
 public class GeradoraDeFigurinhas {
@@ -42,7 +38,6 @@ public class GeradoraDeFigurinhas {
 
     //escrever a nova imagem em um arquivos
     ImageIO.write(novaImagem, "png", new File(nomeArquivo));
-
     }
 
     
